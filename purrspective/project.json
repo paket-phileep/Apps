@@ -1,0 +1,32 @@
+{
+  "name": "purrspective",
+  "$schema": "../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "purrspective/src",
+  "projectType": "library",
+  "release": {
+    "version": {
+      "generatorOptions": {
+        "packageRoot": "dist/{projectRoot}",
+        "currentVersionResolver": "git-tag"
+      }
+    }
+  },
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/js:swc",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/purrspective",
+        "main": "purrspective/src/index.ts",
+        "tsConfig": "purrspective/tsconfig.lib.json",
+        "assets": ["purrspective/*.md"]
+      }
+    },
+    "nx-release-publish": {
+      "options": {
+        "packageRoot": "dist/{projectRoot}"
+      }
+    }
+  }
+}
