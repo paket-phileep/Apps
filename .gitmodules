@@ -1,0 +1,3 @@
+[submodule "codeM8/server/openvscode-server"]
+	path = codeM8/server/openvscode-server
+	url = https://github.com/paket-phileep/openvscode-server.git
