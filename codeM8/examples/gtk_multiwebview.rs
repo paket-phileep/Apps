@@ -82,7 +82,7 @@ fn main() -> wry::Result<()> {
       position: LogicalPosition::new(size.width / 2, size.height / 2).into(),
       size: LogicalSize::new(size.width / 2, size.height / 2).into(),
     })
-    .with_url("https://google.com")
+    .with_url("http://localhost:9888/")
     .build()?;
 
   event_loop.run(move |event, _, control_flow| {
