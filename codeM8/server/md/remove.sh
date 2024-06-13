@@ -1,2 +1,2 @@
-cd ghrc
+cd logseq
 docker rm logseq-container

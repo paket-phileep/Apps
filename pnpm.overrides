@@ -1,0 +1,23 @@
+{
+  "pnpm": {
+    "overrides": {
+      "@pixi/app": "6.2.0",
+      "@pixi/constants": "6.2.0",
+      "@pixi/core": "6.2.0",
+      "@pixi/display": "6.2.0",
+      "@pixi/graphics": "6.2.0",
+      "@pixi/interaction": "6.2.0",
+      "@pixi/loaders": "6.2.0",
+      "@pixi/ticker": "6.2.0",
+      "@pixi/sprite": "6.2.0",
+      "@pixi/text": "6.2.0",
+      "@pixi/text-bitmap": "6.2.0",
+      "@pixi/utils": "6.2.0",
+      "@pixi/runner": "6.2.0",
+      "@pixi/mesh": "6.2.0",
+      "@pixi/settings": "6.2.0",
+      "@pixi/mixin-get-child-by-name": "6.2.0",
+      "@pixi/math": "6.2.0"
+    }
+  }
+}
