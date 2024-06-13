@@ -1,3 +1,9 @@
 [submodule "codeM8/server/openvscode-server"]
 	path = codeM8/server/openvscode-server
 	url = https://github.com/paket-phileep/openvscode-server.git
+[submodule "codeM8/apps/repository-information"]
+	path = codeM8/apps/repository-information
+	url = https://github.com/paket-phileep/repository-information.git
+[submodule "codeM8/apps/logseq"]
+	path = codeM8/apps/logseq
+	url = https://github.com/logseq/logseq.git
