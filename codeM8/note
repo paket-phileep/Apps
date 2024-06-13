@@ -3,3 +3,11 @@ add profiles inside the code server
 fix the tauri deps and also have a pane for the webviews working with security turned off
 
 added repo tracker should also be inside the repo and emulate current repo 
+
+
+usser can authenticate 
+
+https://github.com/gitpod-io/openvscode-server/discussions/430#discussioncomment-9757918
+
+we should try since user profiles can easily be fetched from here
+https://stackoverflow.com/questions/71741596/how-do-i-implement-social-login-with-github-accounts
