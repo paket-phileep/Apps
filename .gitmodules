@@ -7,3 +7,6 @@
 [submodule "codeM8/apps/logseq"]
 	path = codeM8/apps/logseq
 	url = https://github.com/logseq/logseq.git
+[submodule "codeM8/server/logseq"]
+	path = codeM8/server/logseq
+	url = https://github.com/paket-phileep/logseq.git
