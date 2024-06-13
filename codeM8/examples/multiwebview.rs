@@ -63,7 +63,7 @@ fn main() -> wry::Result<()> {
       position: LogicalPosition::new(0, size.height / 2).into(),
       size: LogicalSize::new(size.width / 2, size.height / 2).into(),
     })
-    .with_url("https://twitter.com/TauriApps")
+    .with_url("http://localhost:9888/")
     .build()?;
   let webview4 = WebViewBuilder::new_as_child(&window)
     .with_bounds(Rect {
