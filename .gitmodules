@@ -10,3 +10,18 @@
 [submodule "codeM8/server/md/logseq"]
 	path = codeM8/server/md/logseq
 	url = https://github.com/paket-phileep/logseq.git
+[submodule "codeM8/server/lgsq/logseq"]
+	path = codeM8/server/lgsq/logseq
+	url = https://github.com/logseq/logseq.git
+[submodule "codeM8/current/servers/coder"]
+	path = codeM8/current/servers/coder
+	url = https://github.com/paket-phileep/coder
+[submodule "codeM8/current/servers/code-server"]
+	path = codeM8/current/servers/code-server
+	url = https://github.com/paket-phileep/code-server.git
+[submodule "codeM8/current/servers/code/code-server"]
+	path = codeM8/current/servers/code/code-server
+	url = https://github.com/coder/code-server.git
+[submodule "codeM8/current/servers/code/logseq"]
+	path = codeM8/current/servers/code/logseq
+	url = https://github.com/paket-phileep/logseq.git
