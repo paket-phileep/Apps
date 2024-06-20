@@ -1,0 +1,10 @@
+services:
+  vscode:
+    command: 'yarn watch'
+    directory: './out/servers/code/code-server'
+  logseq:
+    command: 'yarn watch'
+    directory: './out/servers/code/logseq'
+  aggregator:
+    command: 'yarn dev:storybook'
+    directory: './out/web/code/host/'
