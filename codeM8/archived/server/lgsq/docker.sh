@@ -1,0 +1,1 @@
+sh remove.sh && sh init.sh && sh run_container.sh

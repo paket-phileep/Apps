@@ -1,0 +1,17 @@
+;
+
+options.styleTagTransform = styleTagTransformFn;
+options.setAttributes = setAttributes;
+options.insert = insertFn.bind(null, "head");
+options.domAPI = domAPI;
+options.insertStyleElement = insertStyleElement;
+
+var update = api(content, options);
+
+
+
+export * from "!!../node_modules/css-loader/dist/cjs.js!../node_modules/postcss-loader/dist/cjs.js!./tailwind.css";
+       export default content && content.locals ? content.locals : undefined;
+
+
+/*# sourceMappingURL=bundle.css.map*/
